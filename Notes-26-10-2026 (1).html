@@ -1,0 +1,276 @@
+<html>
+        <head><title>Downloaded HTML</title></head>
+        <body>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;">```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono-Log: Journey Through Deep Time | General Biology 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0b0f17;
+            color: #e2e8f0;
+        }
+        h1, h2, h3, .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+        .card-glass {
+            background: rgba(26, 32, 44, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(245, 158, 11, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(99, 102, 241, 0.15), transparent 50%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col hero-gradient">
+
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-50 card-glass border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">⏳</span>
+                <div>
+                    <h1 class="text-lg font-bold tracking-wider text-amber-400">CHRONO-LOG</h1>
+                    <p class="text-xs text-slate-400">Dr. Alex Vance | Temporal Log</p>
+                </div>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="flex flex-wrap gap-1.5 mt-2 md:mt-0 text-xs font-semibold">
+                <button onclick="showSection('mission')" id="btn-mission" class="nav-btn px-3 py-1.5 rounded bg-amber-500 text-slate-950 transition hover:bg-amber-400">00. Mission</button>
+                <button onclick="showSection('precambrian')" id="btn-precambrian" class="nav-btn px-3 py-1.5 rounded bg-slate-800 text-slate-300 transition hover:bg-slate-700">01. Precambrian</button>
+                <button onclick="showSection('paleozoic')" id="btn-paleozoic" class="nav-btn px-3 py-1.5 rounded bg-slate-800 text-slate-300 transition hover:bg-slate-700">02. Paleozoic</button>
+                <button onclick="showSection('mesozoic')" id="btn-mesozoic" class="nav-btn px-3 py-1.5 rounded bg-slate-800 text-slate-300 transition hover:bg-slate-700">03. Mesozoic</button>
+                <button onclick="showSection('cenozoic')" id="btn-cenozoic" class="nav-btn px-3 py-1.5 rounded bg-slate-800 text-slate-300 transition hover:bg-slate-700">04. Cenozoic</button>
+                <button onclick="showSection('synthesis')" id="btn-synthesis" class="nav-btn px-3 py-1.5 rounded bg-slate-800 text-slate-300 transition hover:bg-slate-700">05. Synthesis</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 py-8 w-full">
+
+        <!-- SECTION 00: MISSION BRIEFING -->
+        <section id="sec-mission" class="space-y-6">
+            <div class="card-glass p-8 rounded-2xl border border-amber-500/30 shadow-2xl relative overflow-hidden">
+                <span class="text-xs font-bold tracking-widest text-amber-400 uppercase">General Biology 2 Digital Storytelling Project</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 text-white">Through Deep Time</h2>
+                <div class="mt-4 text-xs font-mono text-slate-400">
+                    <div>EXPLORER: Dr. Alex Vance</div>
+                    <div>MISSION: Traversing 4.6 billion years of Earth's history to investigate how dynamic environments, evolutionary breakthroughs, and mass extinctions forged modern biodiversity.</div>
+                </div>
+                <div class="mt-6 p-4 bg-slate-900/80 rounded-xl border border-slate-800">
+                    <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Journal Entry 0.1 — Mission Initialization</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "If you are reading this transmitted log, our temporal field generator is active. We are about to step out of our era and plunge backward into Deep Time. Most people think of Earth’s history as a simple timeline of dates and long-dead fossils. But history isn't static—it is a continuous chain reaction. Environmental changes trigger evolutionary leaps; massive collapses clear space for brand-new ecosystems. Join me across six temporal checkpoints as we witness how our living world was built."
+                    </p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-4 pt-4 border-t border-slate-700/80 text-sm text-slate-300">
+                    <div>📌 <strong>Perspective:</strong> Time Traveler's Journal</div>
+                    <div>🧬 <strong>Events Tracked:</strong> 8 Biological Milestones</div>
+                    <div>💥 <strong>Mass Extinctions:</strong> 2 Major Crises</div>
+                </div>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4 text-center">
+                <button onclick="showSection('precambrian')" class="px-8 py-3 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-xl text-base transition shadow-lg transform hover:scale-105">
+                    🚀 START TEMPORAL JOURNAL &rarr;
+                </button>
+            </div>
+        </section>
+
+        <!-- SECTION 01: PRECAMBRIAN -->
+        <section id="sec-precambrian" class="space-y-6 hidden">
+            <div class="card-glass p-6 rounded-xl border-l-4 border-emerald-500">
+                <span class="text-xs font-bold tracking-widest text-emerald-400 uppercase">Chapter 01 | Hadean, Archean, Proterozoic Eons</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-1 text-white">01 | The Precambrian Era</h2>
+                <p class="text-sm text-slate-400 mt-1">Timeframe: ~4.6 Ga to 541 Ma</p>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Journal Entry 1.1 — Hadean & Archean Eons (~4.6 Ga – 2.5 Ga)</h3>
+                    <p class="text-xs text-slate-400 mt-1"><strong>Location:</strong> Ancient Earth Surface | <strong>Environment:</strong> A toxic, oxygen-less atmosphere dominated by carbon dioxide, methane, and extreme geothermal activity.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-emerald-950 text-emerald-300 px-2.5 py-1 rounded-full font-mono">~3.8 Ga</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #1 — Origin of Cellular Life</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "My atmospheric monitors show zero free oxygen. Yet, in hydrothermal vents deep beneath the primordial ocean, the first microscopic, single-celled prokaryotic life forms have emerged. These microscopic ancestors represent the humble spark of all life on Earth."
+                        </p>
+                    </div>
+
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-emerald-950 text-emerald-300 px-2.5 py-1 rounded-full font-mono">~2.4 Ga</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #2 — The Great Oxidation Event & Photosynthesis</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "We’ve fast-forwarded to the early Proterozoic. Microscopic cyanobacteria have evolved oxygenic photosynthesis. They are absorbing solar energy and churning out oxygen gas into the ocean and atmosphere."
+                        </p>
+                    </div>
+
+                    <div class="bg-indigo-950/60 border border-indigo-500/30 p-5 rounded-xl">
+                        <h5 class="text-xs font-bold text-indigo-300 uppercase tracking-wider">⚡ Cause-and-Effect Connection #1</h5>
+                        <p class="text-sm text-slate-200 mt-1">
+                            <span id="math-1"></span> The metabolic activity of photosynthetic cyanobacteria released massive quantities of oxygen into the atmosphere. This toxic oxygen wave forced anaerobic organisms into hiding or extinction, while paving the biological foundation for oxygen-dependent cellular respiration and complex, multicellular life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-between pt-4">
+                <button onclick="showSection('mission')" class="px-5 py-2.5 bg-slate-800 text-slate-300 font-bold text-sm rounded-lg hover:bg-slate-700">&larr; Back</button>
+                <button onclick="showSection('paleozoic')" class="px-6 py-2.5 bg-amber-500 text-slate-950 font-black text-sm rounded-lg hover:bg-amber-400">Next: Paleozoic &rarr;</button>
+            </div>
+        </section>
+
+        <!-- SECTION 02: PALEOZOIC -->
+        <section id="sec-paleozoic" class="space-y-6 hidden">
+            <div class="card-glass p-6 rounded-xl border-l-4 border-blue-500">
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Chapter 02 | Paleozoic Era</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-1 text-white">02 | The Paleozoic Era</h2>
+                <p class="text-sm text-slate-400 mt-1">Timeframe: 541 Ma to 252 Ma</p>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-blue-400 uppercase tracking-wider">Journal Entry 2.1 — The Explosion of Life & Colonization of Land</h3>
+                    <p class="text-xs text-slate-400 mt-1"><strong>Location:</strong> Shallow Paleozoic Seas to Primordial Swamp Forests</p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-blue-950 text-blue-300 px-2.5 py-1 rounded-full font-mono">~541 Ma</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #3 — The Cambrian Explosion</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "The oceans have exploded with unprecedented anatomical diversity! In a brief geological window, complex marine invertebrates like trilobites, mollusks, and early chordates have appeared."
+                        </p>
+                    </div>
+
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-blue-950 text-blue-300 px-2.5 py-1 rounded-full font-mono">~375 Ma</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #4 — Tetrapods Colonize Land</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "Standing at the edge of an Devonian swamp, I watched Tiktaalik and early tetrapods use sturdy, lobed fins to pull themselves onto land, adapting to air-breathing and terrestrial locomotion."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-red-400 uppercase tracking-wider">Journal Entry 2.2 — The Permian Mass Extinction</h3>
+                </div>
+
+                <div class="bg-red-950/60 border border-red-500/30 p-5 rounded-xl">
+                    <h5 class="text-xs font-bold text-red-400 uppercase tracking-wider">💥 Mass Extinction #1 — The Permian-Triassic Extinction Event (~252 Ma)</h5>
+                    <p class="text-xs text-slate-300 mt-1 italic">
+                        "The sky has turned toxic red. Massive volcanic eruptions in the Siberian Traps have spewed catastrophic amounts of greenhouse gases into the atmosphere, triggering ocean acidification and hyperwarming."
+                    </p>
+                </div>
+
+                <div class="bg-indigo-950/60 border border-indigo-500/30 p-5 rounded-xl">
+                    <h5 class="text-xs font-bold text-indigo-300 uppercase tracking-wider">⚡ Cause-and-Effect Connection #2</h5>
+                    <p class="text-sm text-slate-200 mt-1">
+                        <span id="math-2"></span> Massive Siberian volcanism released carbon dioxide and methane, causing global climate warming, ocean hypoxia, and marine collapse. Over 95% of marine species and 70% of terrestrial vertebrate species vanished, wiping out dominant Paleozoic groups like trilobites and opening ecological niches for new lineages.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-between pt-4">
+                <button onclick="showSection('precambrian')" class="px-5 py-2.5 bg-slate-800 text-slate-300 font-bold text-sm rounded-lg hover:bg-slate-700">&larr; Back</button>
+                <button onclick="showSection('mesozoic')" class="px-6 py-2.5 bg-amber-500 text-slate-950 font-black text-sm rounded-lg hover:bg-amber-400">Next: Mesozoic &rarr;</button>
+            </div>
+        </section>
+
+        <!-- SECTION 03: MESOZOIC -->
+        <section id="sec-mesozoic" class="space-y-6 hidden">
+            <div class="card-glass p-6 rounded-xl border-l-4 border-amber-500">
+                <span class="text-xs font-bold tracking-widest text-amber-400 uppercase">Chapter 03 | Mesozoic Era</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-1 text-white">03 | The Mesozoic Era</h2>
+                <p class="text-sm text-slate-400 mt-1">Timeframe: 252 Ma to 66 Ma</p>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">Journal Entry 3.1 — The Age of Reptiles & Floral Leaps</h3>
+                    <p class="text-xs text-slate-400 mt-1"><strong>Location:</strong> Pangaea & Mesozoic Forest Basins</p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-amber-950 text-amber-300 px-2.5 py-1 rounded-full font-mono">~230 Ma</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #5 — Adaptive Radiation of Dinosaurs</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "Out of the ecological void left by the Permian extinction, archosaurs diversified rapidly. Dinosaurs now dominate almost every terrestrial ecological niche."
+                        </p>
+                    </div>
+
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-amber-950 text-amber-300 px-2.5 py-1 rounded-full font-mono">~140 Ma</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #6 — Evolution of Angiosperms (Flowering Plants)</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "Deep in the Cretaceous, I am recording the origin of flowering plants (angiosperms). Their co-evolution with insect pollinators has fundamentally reshaped terrestrial food webs."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-red-400 uppercase tracking-wider">Journal Entry 3.2 — The End-Cretaceous Cataclysm</h3>
+                </div>
+
+                <div class="bg-red-950/60 border border-red-500/30 p-5 rounded-xl">
+                    <h5 class="text-xs font-bold text-red-400 uppercase tracking-wider">💥 Mass Extinction #2 — The Cretaceous-Paleogene (K-Pg) Extinction (~66 Ma)</h5>
+                    <p class="text-xs text-slate-300 mt-1 italic">
+                        "A 10-kilometer asteroid collided with Earth at Chicxulub (modern-day Mexico), sending shockwaves, mega-tsunamis, and a global dust cloud blocking sunlight for months."
+                    </p>
+                </div>
+
+                <div class="bg-indigo-950/60 border border-indigo-500/30 p-5 rounded-xl">
+                    <h5 class="text-xs font-bold text-indigo-300 uppercase tracking-wider">⚡ Cause-and-Effect Connection #3</h5>
+                    <p class="text-sm text-slate-200 mt-1">
+                        <span id="math-3"></span> The dark impact winter halted photosynthesis, causing primary production in plants to collapse. This ripple effect starved giant herbivorous dinosaurs and their top predators. Non-avian dinosaurs went extinct, leaving surviving small, warm-blooded nocturnal mammals and birds to undergo massive adaptive radiation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-between pt-4">
+                <button onclick="showSection('paleozoic')" class="px-5 py-2.5 bg-slate-800 text-slate-300 font-bold text-sm rounded-lg hover:bg-slate-700">&larr; Back</button>
+                <button onclick="showSection('cenozoic')" class="px-6 py-2.5 bg-amber-500 text-slate-950 font-black text-sm rounded-lg hover:bg-amber-400">Next: Cenozoic &rarr;</button>
+            </div>
+        </section>
+
+        <!-- SECTION 04: CENOZOIC -->
+        <section id="sec-cenozoic" class="space-y-6 hidden">
+            <div class="card-glass p-6 rounded-xl border-l-4 border-purple-500">
+                <span class="text-xs font-bold tracking-widest text-purple-400 uppercase">Chapter 04 | Cenozoic Era</span>
+                <h2 class="text-2xl md:text-3xl font-bold mt-1 text-white">04 | The Cenozoic Era</h2>
+                <p class="text-sm text-slate-400 mt-1">Timeframe: 66 Ma to Present</p>
+            </div>
+
+            <div class="card-glass p-6 rounded-xl space-y-4">
+                <div class="border-b border-slate-800 pb-3">
+                    <h3 class="text-xs font-bold text-purple-400 uppercase tracking-wider">Journal Entry 4.1 — The Age of Mammals & Modern Ecosystems</h3>
+                    <p class="text-xs text-slate-400 mt-1"><strong>Location:</strong> Grasslands, Savannas, and Glacial Outwashes</p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800">
+                        <span class="text-xs bg-purple-950 text-purple-300 px-2.5 py-1 rounded-full font-mono">~66 Ma – 30 Ma</span>
+                        <h4 class="font-bold text-amber-300 mt-2 text-sm">Biological Event #7 — Mammalian Adaptive Radiation</h4>
+                        <p class="text-xs text-slate-300 mt-1 italic">
+                            "With no</pre>
+        </body>
+    </html>
